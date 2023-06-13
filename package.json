@@ -1,7 +1,7 @@
 {
   "name": "debugging",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!-- need a thing here -->",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -33,5 +33,17 @@
     "markdownlint-cli": "^0.34.0",
     "misc-utils-of-mine-typescript": "0.0.12",
     "prettier": "^2.8.8"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rekhasriraman/bf-inside-js.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Rekhasriraman/bf-inside-js/issues"
+  },
+  "homepage": "https://github.com/Rekhasriraman/bf-inside-js#readme"
 }
