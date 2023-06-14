@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 console.log('-- begin --');
@@ -13,6 +11,11 @@ let temp;
 
 // --- swap values ---
 
+temp = a; // 'z'
+a = b; // 'x'
+b = c; // 'y'
+c = temp; // 'z'
+
 // --- test final values ---
 
 const test1 = a === 'x';
@@ -24,7 +27,7 @@ console.assert(test2, 'Test 2');
 const test3 = c === 'z';
 console.assert(test3, 'Test 3');
 
-const test4 = temp === _;
+const test4 = temp === 'z';
 console.assert(test4, 'Test 4');
 
 console.log('-- end --');
