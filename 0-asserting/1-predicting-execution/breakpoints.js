@@ -23,6 +23,8 @@ const firstName = 'Brobes';
 const lastName = 'Pierre';
 
 // use a breakpoint on line this line to pause before fullName's value is assigned
+
 const fullName = firstName + ' ' + lastName;
+
 
 console.assert(fullName === 'Brobes Pierre');
