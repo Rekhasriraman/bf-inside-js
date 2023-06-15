@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* ||
@@ -38,3 +36,5 @@ const or9 = 'poiu' || 'asdf';
 console.log(typeof or9, or9);
 
 console.log('-- end --');
+
+
