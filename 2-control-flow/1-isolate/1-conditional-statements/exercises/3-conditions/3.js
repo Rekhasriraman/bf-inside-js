@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 console.log('-- begin --');
@@ -10,13 +8,13 @@ console.log('-- begin --');
 //  try to find as many as you can
 //  what do these solutions have in common?
 
-const value1 = '';
-const value2 = -1;
+const value1 = ''; // 0
+const value2 = -1; // -1
 let path = '';
 
-if (_) {
+if (value1 || value2) { // value1 = false; value2 = true
   path = 'if';
-} else if (_) {
+} else if (!value1 && !value2) { // !value1 = true; !value2 = false
   path = 'else if';
 } else {
   path = 'else';
