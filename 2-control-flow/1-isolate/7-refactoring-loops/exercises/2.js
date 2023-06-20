@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 console.log('-- begin --');
@@ -12,7 +10,9 @@ for (let i = minutesLeft; i > 0; i--) {
 }
 
 // refactor this for loop to a while loop
-
-while (_) {}
+let i = 0
+while (i > minutesLeft) {
+  console.log(minutesLeft[i] + ' minutes left')
+}
 
 console.log('-- end --');
