@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 let validInput = '';
@@ -14,6 +12,22 @@ while (!isValid) {
   );
 
   /* -- BEGIN: validate input -- */
+  // make sure the user 
+if (userInput === '' || userInput === null) {
+  alert ('enter something');
+  continue;
+}
+if (userInput.length < index) {
+  alert ('too short');
+  continue;
+}
+if (userInput[index - 1] === 'e' || userInput[index - 1] === 'E') {
+  validInput = userInput;
+  isValid = true;
+}else {
+  alert ('input has no "e" or "E" as the ' + index + 'th character')
+}
+
   /* -- END: validate input -- */
 }
 
