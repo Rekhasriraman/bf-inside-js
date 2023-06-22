@@ -1,11 +1,12 @@
-// #todo
-
 'use strict';
 
 console.log('-- begin --');
 
 /**
- *
+ * 
+ * @param {string} text - the string to shuffle
+ * @param {number} shift - number of char code to shuffle
+ * @returns {string} the shuffle string
  */
 const unicodeShuffle = (text = '', shift = 0) => {
   let encodedString = '';
