@@ -6,11 +6,15 @@ const removeConsonants = () => {
   debugger;
 
   // --- read user input ---
-  const userText = readString('user-text');
+  const text = readString('user-text');
 
   // --- remove all consonants from the input ---
+
+  const toRemove = 'AEIOUaeiou'
+
   //  use `removeCharacters` to write this step of the program
-  ___;
+  
+const noConsonants = removeCharacters (text, toRemove);
 
   // --- display the input with no consonants ---
   display('removified', noConsonants);
