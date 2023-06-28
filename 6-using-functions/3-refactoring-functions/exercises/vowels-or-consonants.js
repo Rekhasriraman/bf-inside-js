@@ -1,5 +1,3 @@
-// #todo
-
 import { filter } from './utils/filter.js';
 
 /* for character of String
