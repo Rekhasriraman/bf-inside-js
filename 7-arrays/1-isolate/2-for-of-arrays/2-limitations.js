@@ -27,7 +27,13 @@ for (let i = trees.length - 1; i >= 0; i--) {
 }
 
 console.log('-- reverse order: for-of ');
+let reverseTrees = [];
 for (const tree of trees) {
+  reverseTrees.unshift(tree);
+}
+
+for (const tree of reverseTrees) {
+  console.log('- ' + tree);
 }
 
 console.log('-- every other item: for ');
@@ -37,7 +43,13 @@ for (let i = 1; i <= trees.length - 1; i += 2) {
 }
 
 console.log('-- every other item: for-of ');
+let i = 0;
+
 for (const tree of trees) {
+  i++;
+  if (i % 2 === 0) {
+    console.log('- ' + tree);
+  }
 }
 
 console.log('-- end --');
